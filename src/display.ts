@@ -2,7 +2,7 @@ export class Display {
   private canvas: HTMLCanvasElement;
   private width = 800;
   private height = 600;
-  private context: CanvasRenderingContext2D;
+  // private context: CanvasRenderingContext2D;
 
   constructor(private parent: HTMLElement, width?: number, height?: number) {
     this.canvas = this.createCanvas(width, height);
